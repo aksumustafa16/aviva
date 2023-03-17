@@ -1,6 +1,6 @@
 Feature: The user should able to go back to the main page
 
-    @return
+    @login @return
     Scenario: Go to main page from login page
       Given the user in on the main page
       When the user click the login button
